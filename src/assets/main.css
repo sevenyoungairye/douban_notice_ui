@@ -1,0 +1,41 @@
+@import "./base.css";
+
+#app {
+  margin: 0 auto;
+  font-weight: normal;
+}
+
+.db-color-999 {
+  color: #999;
+}
+
+.db-color-333 {
+  color: #333;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+/* 小于1024px生效 */
+@media (min-width: 1600px) {
+  #app {
+    padding: 0 5px;
+  }
+}
+
+/* 屏幕宽度小于800 2rem的间隔 */
+@media (min-width: 1600px) {
+  #app {
+    padding: 0 2rem;
+  }
+}
