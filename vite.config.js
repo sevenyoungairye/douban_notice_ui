@@ -11,6 +11,11 @@ import { NaiveUiResolver } from 'unplugin-vue-components/resolvers'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  server: {
+    // 默认部署到xxx.github.io/
+    // https://cn.vitejs.dev/config/server-options.html#server-middlewaremode
+    base: "/douban_sub_page/"
+  },
   plugins: [
     vue(),
     AutoImport({
