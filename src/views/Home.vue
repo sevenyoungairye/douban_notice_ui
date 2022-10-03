@@ -12,7 +12,7 @@
     <div class="w-full middle-content mt-5 block">
       <div class="text-center align-middle items-center mt-2 h-20 block">
         <h2>Subscribe douban episodes.</h2>
-        <h2>Every monday will get email notice.</h2>
+        <h2>Every monday you will get email notice.</h2>
       </div>
 
       <div
