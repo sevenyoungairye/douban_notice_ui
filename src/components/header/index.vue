@@ -30,6 +30,17 @@ export default {
 </script>
 
 <style>
+@media (min-width: 360px) {
+  .logo-img {
+    height: 30px;
+    margin-left: 15px;
+    top: 5px;
+  }
+  .db-header {
+    height: 45px;
+  }
+}
+
 @media (min-width: 390px) {
   .logo-img {
     height: 30px;
